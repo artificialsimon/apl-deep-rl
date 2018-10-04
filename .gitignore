@@ -1,3 +1,6 @@
+# models
+navigation/models/*
+navigation/*.mlp
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
