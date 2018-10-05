@@ -1,0 +1,15 @@
+FROM nvidia/cuda:6.5
+MAINTAINER Simon C. Smith <artificialsimon@ed.ac.uk>
+
+#RUN apt-get update
+#&& apt-get install
+#-y --no-install-recommends
+#\
+	#python:3.15 \
+	#tensorflow-gpu:1.10 \
+	#numpy:1.15 
+
+#RUN git clone -b apl_navigation git@github.com:artificialsimon/GA3C.git
+
+CMD tail -f /dev/null
+#ENTRYPOINT ["/bin/bash"]
