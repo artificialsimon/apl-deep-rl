@@ -22,6 +22,7 @@ RUN pip3 install .
 WORKDIR "/cogle/gym-apl"
 RUN pip3 install -e .
 WORKDIR "/cogle/GA3C/ga3c/"
+RUN mkdir checkpoints
 
 #CMD tail -f /dev/null
 #ENTRYPOINT ["/bin/bash"]
